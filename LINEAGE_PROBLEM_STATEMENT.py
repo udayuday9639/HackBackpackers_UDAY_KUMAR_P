@@ -13,6 +13,7 @@ res3=[i.strip() for i in res2]
 #print(res3) #output['a.uid', 'b.uname']
 
 
+
 X=re.findall(r'FROM(.*?)\)*\,', sql_script)
 Y=re.findall(r'FROM(.*?)\)*\;', sql_script)
 Z=[i.strip() for i in Y]
